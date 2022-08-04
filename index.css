@@ -1,24 +1,112 @@
-body {
-    margin-top: 0;
-    margin-left: 0;
-    background: #1F2937;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive	;
 }
 
-.conthead {
+/* This is the header */
+
+header {
+    background: rgba(132, 147, 167, 1);
+}
+
+.logo {
+    display: inline;
+    width: 100px;
+    height: auto;
+    margin-right: 700px;
+}
+
+.container {
+    color: white;
     display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: end;
+    margin-right: 200px;
+    margin-left: 0;
 }
 
-.conthead a {
-    text-decoration: none;
+.list {
+    font-size: 20px;
+}
+
+/* This is the title */
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 980px;
+    transform: translateX(175px) translateY(120px);
     color: white;
 }
 
-.img {
-    width: 150px;
-    height: auto;
-    margin: 0 100px;
+.title {
+    text-align: left;
+    font-size: 48px;
+    font-weight: bolder;
 }
 
-li {
-    list-style-type: none;
+.subtitle {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.butt {
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #3882F6;
+}
+
+.big {
+    width: 350px;
+    height: auto;
+    margin-left: 1000px;
+    transform: translateY(-85px) translateX(-15px);
+    border: 5px solid white;
+}
+
+/* This is the info with pics part */
+
+.randominfo {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+.flex > div {
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+.ppap {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.description {
+  text-align: center;  
 }
