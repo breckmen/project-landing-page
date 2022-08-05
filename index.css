@@ -1,10 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Comic Sans MS, Comic Sans, cursive	;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* This is the header */
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 header {
     background: rgba(132, 147, 167, 1);
@@ -109,4 +114,89 @@ header {
 
 .description {
   text-align: center;  
+}
+
+/* This is the quote part */
+
+.center {
+    background: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.quote {
+    background: #E5E7EB;
+    width: 60%;
+    margin: auto;
+}
+
+.quo {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: justify;
+    width: 800px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.theperson {
+    padding-top: 25px;
+    text-align: end;
+    font-weight: bold;
+    margin-right: 105px;
+}
+
+.back {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.blue {
+    background: #3882F6;
+    width: 50%;
+    margin: auto;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.he {
+    font-size: 28px;
+    text-align: start;
+    transform: translateY(20px);
+}
+
+.pa {
+    font-size: 15px;
+    transform: translateY(20px);
+}
+
+.buton {
+    display: inline;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+    border-width: 0;
+    box-shadow: 0 0 0 2px white;
+    color: white;
+    margin-left: 650px;
+    transform: translateY(-30px);
+}
+
+/* This is the copyright part */
+
+.backback {
+    background: rgba(132, 147, 167, 1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.copy {
+    color: white;
+    text-align: center;
+    font-style: italic;
 }
